@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Données sensibles (MIMIC)
+data/raw/
+data/processed/
+data/*.csv
+data/*.csv.gz
+
+# Figures (optionnel)
+figures/
