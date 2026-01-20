@@ -126,9 +126,6 @@ patients <- patients %>%
   
 head(patients)
 
-patients <- patients %>%
-  select(-age)
-head(patients)
 
 
 # Joindre les informations patient aux mesures de fréquence cardiaque
@@ -140,7 +137,7 @@ df <- chartevents %>%
   rename(hr = valuenum) %>%
   left_join(
     patients %>%
-      select(subject_id, age_group, gender),
+      select(subject_id, age_group, gender, age),
     by = "subject_id"
   )
   
