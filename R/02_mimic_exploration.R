@@ -93,7 +93,7 @@ ggplot(patients, aes(x=gender))+
 
 
 
-# Sauvegarde de patients
+# Sauvegarde de patients et des valeurs
 
 write.csv(patients, file = "clean_patients.csv", row.names = FALSE)
 
