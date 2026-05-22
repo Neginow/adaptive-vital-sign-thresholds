@@ -12,5 +12,17 @@ data/processed/
 data/*.csv
 data/*.csv.gz
 
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Generated RAG artifacts
+data/rag_documents/rag_documents.csv
+data/rag_chunks/
+data/rag_index/
+
 # Figures (optionnel)
 figures/

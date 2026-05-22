@@ -1,0 +1,9 @@
+google-cloud-bigquery
+pandas
+db-dtypes
+numpy
+scikit-learn
+joblib
+streamlit
+pyarrow
+python-dotenv
